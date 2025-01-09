@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8907375f-bcff-4a5f-87ed-6fb821a7362b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/AppTest.java" afterDir="false" />
+    <list default="true" id="8907375f-bcff-4a5f-87ed-6fb821a7362b" name="Changes" comment="Selenium">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/SeleniumExceptions/Selenium36_NoSuchElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/SeleniumExceptions/Selenium37_StaleElementReferenceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/SeleniumExceptions/Selenium38_TimeOutException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +26,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;saisushma&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/saisushma/LearningSeleniumATB8x.git&quot;,
+    &quot;accountId&quot;: &quot;51f87768-e36e-48aa-97c4-27e24849581c&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2qMxd9DLGd6n9DoEH8OMZfJyrgA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -46,11 +55,19 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.Selenium01.testSelenium.executor": "Run",
     "TestNG.Selenium08.testMethod01.executor": "Run",
+    "TestNG.Selenium36_NoSuchElement.executor": "Run",
+    "TestNG.Selenium37_NoSuchElement_StaleElementReferenceException.test_actions.executor": "Run",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/saisushma/IdeaProjects/LearningSeleniumATB8x"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.Selenium08.testMethod01">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.thetestingacademy.SeleniumExceptions" />
+    </key>
+  </component>
+  <component name="RunManager">
     <configuration name="Selenium07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.ex_18122024.Selenium07" />
       <module name="LearningSeleniumATB8x" />
@@ -100,8 +117,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Selenium36_NoSuchElement" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LearningSeleniumATB8x" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thetestingacademy.SeleniumExceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thetestingacademy.SeleniumExceptions" />
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.SeleniumExceptions.Selenium36_NoSuchElement" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Selenium37_StaleElementReferenceException.test_actions" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LearningSeleniumATB8x" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thetestingacademy.SeleniumExceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thetestingacademy.SeleniumExceptions" />
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.SeleniumExceptions.Selenium37_StaleElementReferenceException" />
+      <option name="METHOD_NAME" value="test_actions" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Selenium37_StaleElementReferenceException.test_actions" />
+        <item itemvalue="TestNG.Selenium36_NoSuchElement" />
         <item itemvalue="TestNG.Selenium08.testMethod01" />
         <item itemvalue="Application.Selenium07" />
         <item itemvalue="TestNG.Selenium01.testSelenium" />
@@ -117,6 +171,19 @@
       <option name="presentableId" value="Default" />
       <updated>1734486333210</updated>
     </task>
+    <task id="LOCAL-00001" summary="Selenium">
+      <option name="closed" value="true" />
+      <created>1734489091628</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734489091630</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Selenium" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium" />
   </component>
 </project>
